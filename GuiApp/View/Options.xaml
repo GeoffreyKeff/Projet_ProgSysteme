@@ -1,0 +1,47 @@
+﻿<Page x:Class="GuiApp.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuiApp"
+        mc:Ignorable="d"
+        Title="Option" Height="382" Width="651">
+    <Grid Background="White">
+        <Canvas x:Name="OptionsCanva" Margin="-6,8,7,-346" Background="#00000000">
+            <Border BorderThickness="1" BorderBrush="Black" Height="294" Canvas.Left="40" Width="262" Canvas.Top="27"/>
+            <Border BorderThickness="1" BorderBrush="Black" Height="38" Canvas.Left="40" Width="262" Canvas.Top="27"/>
+            <Label x:Name="LabelTitlePriorityExtensions" Content="" Canvas.Top="33" Width="262" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Canvas.Left="40"/>
+            <Button x:Name="AddPriorityExtensionButton" Content="+" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Left="256" Canvas.Top="75" Width="38" Height="29" Click="AddPriorityExtensionButton_Click"/>
+            <ListBox x:Name="LabelPriorityExtensions" Height="197" Width="200" Canvas.Left="50" Canvas.Top="111" Background="#FFE6E6E6"></ListBox>
+            <Button Grid.Row="1" Height="29" Width="38" Canvas.Left="256" Canvas.Top="111" Click="ClickRemovePriorityExtension">
+                <TextBlock Text="-" Margin="0,-3,0,0" FontWeight="Bold"/>
+            </Button>
+            <Border BorderThickness="1" BorderBrush="Black" Height="294" Canvas.Left="336" Width="262" Canvas.Top="27"/>
+            <Border BorderThickness="1" BorderBrush="Black" Height="38" Canvas.Left="336" Width="262" Canvas.Top="27"/>
+            <Label x:Name="LabelTitleExtensions" Content="" Canvas.Top="33" Width="264" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Canvas.Left="336"/>
+            <ListBox x:Name="LabelExtensions" Height="197" Width="200" Canvas.Left="346" Canvas.Top="111" Background="#FFE6E6E6"></ListBox>
+            <TextBox x:Name="TextBoxExtensions" Canvas.Left="356" Canvas.Top="75" Text="" TextWrapping="Wrap" Width="180" BorderBrush="Black" BorderThickness="2" Background="#FFE6E6E6">
+                <TextBox.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <Button x:Name="AddExtenstionButton" Content="+" Canvas.Left="556" Canvas.Top="75" Width="38" Click="AddExtenstionButton_Click" Height="29"/>
+            <TextBox x:Name="TextBoxPriorityExtensions" Canvas.Left="60" Canvas.Top="75" Text="" TextWrapping="Wrap" Width="180" BorderBrush="Black" BorderThickness="2" Background="#FFE6E6E6">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="5"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+        </Canvas>
+        <Button Margin="550,117,63,236" Click="ClickRemoveExtension">
+            <TextBlock Text="-" Margin="0,-3,0,0" FontWeight="Bold"/>
+        </Button>
+        <Button Margin="599,348,16,24" BorderBrush="White" Background="White" Click="EasterEggVisible"/>
+        <Button Margin="599,338,16,34" BorderBrush="White" Background="White" Click="EasterEggHidden" Width="36"/>
+        <Image x:Name="EasterEgg" Source="\Sources\EasterEgg.png" Margin="336,158,106,70" Visibility="Hidden"></Image>
+        <Image x:Name="EasterEgg2" Source="\Sources\EasterEgg2.jpg" Margin="37,158,405,70" Visibility="Hidden"></Image>
+    </Grid>
+</Page>

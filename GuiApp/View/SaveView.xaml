@@ -1,0 +1,51 @@
+﻿<Page x:Class="GuiApp.SaveView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuiApp"
+        mc:Ignorable="d"
+        Title="Save" Height="382" Width="632">
+    <Grid Background="White">
+
+        <Canvas x:Name="SaveCanva" Margin="0,32,0,-388" Visibility="Visible" Width="628">
+            <Border x:Name="CanvasBorder" BorderBrush="Black" BorderThickness="0,2,0,0">
+                <!--StackPanel x:Name="GridSave" Height="382" Width="632" Margin="0,10,0,0"/-->
+
+                <ListView x:Name="saveList" Grid.Row="1" BorderThickness="0" ItemsSource="{Binding}" Width="626">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn x:Name="GVName" Header="Name" 
+                      DisplayMemberBinding="{Binding Str_name}"/>
+                            <GridViewColumn x:Name="GVSource" Header="Source" Width="100"
+                      DisplayMemberBinding="{Binding Str_filesSource}" />
+                            <GridViewColumn x:Name="GVDest" Header="Destination" Width="100"
+                      DisplayMemberBinding="{Binding Str_filesDest}"/>
+                            <GridViewColumn x:Name="GVType" Header="Complete"
+                      DisplayMemberBinding="{Binding B_type}"/>
+                            <GridViewColumn x:Name="GVSize" Header="Size"
+                      DisplayMemberBinding="{Binding Nb_arborescenceSize}"/>
+                            <GridViewColumn x:Name="GVFileLeft" Header="File left"
+                      DisplayMemberBinding="{Binding L_fileLeft}"/>
+                            <GridViewColumn x:Name="GVSizeLeft" Header="Size left"
+                      DisplayMemberBinding="{Binding L_sizeLeft}"/>
+                            <GridViewColumn x:Name="GVProgress" Header="Progress">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ProgressBar Height="20" Width="100" Value="{Binding Nb_progression, Mode=OneWay}"></ProgressBar>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Border>
+        </Canvas>
+        <Button x:Name="LaunchAllSaves" Content="Launch all saves" HorizontalAlignment="Left" Margin="454,4,0,0" VerticalAlignment="Top" Width="171" Height="23" Click="LaunchAllSaves_Click"/>
+        <Button x:Name="PlaySave" Content="Play" HorizontalAlignment="Left" Margin="6,4,0,0" VerticalAlignment="Top" Width="60" Height="23" Click="PlaySave_Click" />
+        <Button x:Name="DeleteSave" Content="Delete" HorizontalAlignment="Left" Margin="359,4,0,0" VerticalAlignment="Top" Width="90" Height="23" Click="DeleteSave_Click" />
+        <Button x:Name="PauseSave" Content="Pause" HorizontalAlignment="Left" Margin="71,4,0,0" VerticalAlignment="Top" Width="60" Height="23" Click="PauseSave_Click" />
+        <Button x:Name="StopSave" Content="Stop" HorizontalAlignment="Left" Margin="136,4,0,0" VerticalAlignment="Top" Width="60" Height="23" Click="StopSave_Click" />
+
+    </Grid>
+</Page>

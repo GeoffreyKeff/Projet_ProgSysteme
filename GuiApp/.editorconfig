@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0252: Possibilité d'une comparaison de références involontaire ; la partie gauche a besoin d'un cast
+dotnet_diagnostic.CS0252.severity = none

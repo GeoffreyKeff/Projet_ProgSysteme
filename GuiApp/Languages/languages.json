@@ -1,0 +1,528 @@
+﻿{
+	"french": {
+
+		"welcome": "Bienvenu sur l'application EasySave",
+
+		"saveTitle": "Vos sauvegardes",
+		"nameOfSave": "Nom",
+		"sourceOfSave": "Source",
+		"destOfSave": "Destination",
+		"sizeOfSave": "Taille du dossier",
+		"start": "Play",
+		"pause": "Pause",
+		"delete": "Supprimer",
+		"resume": "Reprendre",
+		"stop": "Stop",
+		"progress": "Progression",
+
+
+		"optionsTitle": "Autres Options",
+		"generalOptionsTitle": "Options Générales",
+		"createSaveTitle": "Créer une sauvegarde",
+		"optionsGeneralTitle": "Paramètres Généraux",
+		"pathLogState": "Chemins des fichiers log et state",
+
+		"saveButton": "Sauvegardes",
+		"createSaveButton": "Créer une sauvegarde",
+		"optionsButton": "Autres Options",
+		"quitButton": "Quitter",
+		"validButton": "Valider",
+		"launchAllSaveButton": "Lancer toutes les sauvegardes",
+
+		"optionLanguage": "Choix du language :",
+		"optionTypeOutput": "Type de fichier log :",
+		"optionLogPath": "Chemin d'enregistrement des logs :",
+		"optionStatePath": "Chemin d'enregistrement du fichier état :",
+		"optionExePath": "Chemin de l'exe cryptosoft :",
+		"optionAddExtensions": "Ajouter une extension à crypter :",
+		"optionsAddExtensionsPriority": "Ajouter une extension prioritaire :",
+		"optionExtensions": "Extensions déjà présente :",
+		"optionPriorityExtensions": "Extension prioritaire déja présente :",
+
+		"createSaveName": "Choississez un nom",
+		"createSaveSource": "Choississez un dossier ou fichier source",
+		"createSaveDest": "Choississez un dossier de destination",
+		"createSaveDif": "Sauvegarde différentiel",
+		"checkIfCrypt": "Crypter",
+
+		"errorSourceFile": "La source est vide ou incorrect",
+		"errorName": "Le nom est vide ou incorrect",
+		"errorDestFile": "La destination est vide",
+		"errorStringInt": "La chaine entrée n'est pas un nombre !",
+		"NameNoSpecialCharacter": "Il y a des caractères spéciaux/espaces dans le nom",
+		"successCreate": "La sauvegarde à bien été créée",
+		"successOption": "Les options ont été sauvegardées",
+		"processRun": "L'application metier est en cours d'éxecution, impossible de lancer la sauvegarde",
+		"processRun2": "L'application métier est en cours d'exécution, toutes les sauvegardes ont été suspendues. Veuillez fermer l'application et reprendre les sauvegardes.",
+
+		"SourceError" :  "Le fichier source est manquant ou a été déplacé, la sauvegarde à été mise sur pause, veuillez verifier que les fichiers sources sont disponibles",
+		"noSave": "Vous n'avez aucune sauvegarde de créer",
+
+		"filesSize": "Interdiction transfert simultané des fichiers de nKo :",
+		"gvFileLeft": "Fichier restant",
+		"gvSizeLeft": "Taille restante",
+	  "type":  "Complète"
+
+	},
+
+	"english": {
+
+		"welcome": "Welcome on EasySave app",
+
+		"saveTitle": "Your save",
+		"nameOfSave": "Name",
+		"sourceOfSave": "Source",
+		"destOfSave": "Destination",
+		"sizeOfSave": "Size of the folder",
+		"start": "Play",
+		"pause": "Pause",
+		"delete": "Delete",
+		"resume": "Resume",
+		"stop": "Stop",
+		"progress": "Progression",
+
+		"optionsTitle": "Other Options",
+		"generalOptionsTitle": "Generals Options",
+		"createSaveTitle": "Create a save",
+		"optionsGeneralTitle": "General Settings",
+		"pathLogState": "Log and State file paths",
+
+		"saveButton": "Save",
+		"createSaveButton": "Creation of a Save",
+		"optionsButton": "Other Options",
+		"quitButton": "Quit",
+		"validButton": "Valid",
+		"launchAllSaveButton": "Launch all saves",
+
+		"optionLanguage": "Language choice :",
+		"optionTypeOutput": "Type of log's files :",
+		"optionLogPath": "Log files path :",
+		"optionStatePath": "State file path :",
+		"optionExePath": "Cryptosoft exe path :",
+		"optionAddExtensions": "Add an extension :",
+		"optionsAddExtensionsPriority": "Add an priority extension :",
+		"optionExtensions": "Present extensions :",
+		"optionPriorityExtensions": "Present priority extensions :",
+
+		"createSaveName": "Choose a name",
+		"createSaveSource": "Choose a directory or a file source",
+		"createSaveDest": "Chose a directory destination",
+		"createSaveDif": "Diferential save",
+		"checkIfCrypt": "Crypt",
+
+		"errorSourceFile": "source is empty or incorrect",
+		"errorName": "Name is empty or incorrect",
+		"errorDestFile": "Destination is empty",
+		"errorStringInt": "The input string is not a number!",
+		"NameNoSpecialCharacter": "There are special characters in the name or a space",
+		"successCreate": "The save has been created",
+		"successOption": "Options was saved",
+		"saveKey": "Warning please note your crypt' key : ",
+		"processRun": "The parent process is running, can't launch the save",
+		"processRun2": "The parent process is running, all backups have been suspended. Please close the application and resume backups.",
+
+		"SourceError": "The source file is missing or has been moved, the backup has been paused, please check that the source files are available",
+		"noSave": "You don't have any created save",
+
+		"filesSize": "Forbidding simultaneous transfer of nKo files:",
+		"gvFileLeft": "Remaining file",
+		"gvSizeLeft": "Remaining Amount",
+		"type": "Complete"
+
+	},
+
+	"spanish": {
+
+		"welcome": "Bienvenido a la aplicación EasySave",
+
+		"saveTitle": "Tu salvada",
+		"nameOfSave": "Nombre",
+		"sourceOfSave": "Fuente",
+		"destOfSave": "Destino",
+		"sizeOfSave": "Tamaño de la carpeta",
+		"start": "Jugar",
+		"pause": "Pausa",
+		"delete": "Suprímase",
+		"resume": "Reanudar",
+		"stop": "Stop",
+		"progress": "Progresión",
+
+		"optionsTitle": "Otras opciones",
+		"generalOptionsTitle": "Opciones generales",
+		"createSaveTitle": "Crear un guardado",
+		"optionsGeneralTitle": "Ajustes generales",
+		"pathLogState": "Registro y rutas de archivo de estado",
+
+		"saveButton": "Guardar",
+		"createSaveButton": "Creación de un Save",
+		"optionsButton": "Otras opciones",
+		"quitButton": "Dejar de fumar",
+		"validButton": "Válido",
+		"launchAllSaveButton": "Iniciar todos los guarda",
+
+		"optionLanguage": "Elección de idioma:",
+		"optionTypeOutput": "Tipo de archivos de registro :",
+		"optionLogPath": "Ruta de los archivos de registro :",
+		"optionStatePath": "Ruta del archivo de estado :",
+		"optionExePath": "Ruta exe Cryptosoft :",
+		"optionAddExtensions": "Añadir una extensión :",
+		"optionsAddExtensionsPriority": "Añadir una extensión de prioridad :",
+		"optionExtensions": "Extensiones actuales :",
+		"optionPriorityExtensions": "Presente extensiones de prioridad :",
+
+		"createSaveName": "Elige un nombre",
+		"createSaveSource": "Elija un directorio o una fuente de archivo",
+		"createSaveDest": "Eligió un destino de directorio",
+		"createSaveDif": "Diferential save",
+		"checkIfCrypt": "Cripta",
+
+		"errorSourceFile": "source is empty or incorrect",
+		"errorName": "El nombre está vacío o incorrecto",
+		"errorDestFile": "Destino está vacío",
+		"errorStringInt": "¡La cadena de entrada no es un número!",
+		"NameNoSpecialCharacter": "Hay caracteres especiales en el nombre o en un espacio",
+		"successCreate": "El guardado ha sido creado",
+		"successOption": "Opciones guardadas",
+		"saveKey": "Advertencia por favor tenga en cuenta la clave de su cripta : ",
+		"processRun": "El proceso padre se está ejecutando, no se puede iniciar el guardado",
+		"processRun2": "El proceso padre se está ejecutando, todas las copias de seguridad se han suspendido. Por favor, cierre la aplicación y reanude las copias de seguridad.",
+
+		"SourceError": "El archivo fuente falta o ha sido movido, la copia de seguridad ha sido pausada, por favor compruebe que los archivos fuente están disponibles",
+		"noSave": "Usted no tiene ninguna creación salvo",
+
+		"filesSize": "Prohibir la transferencia simultánea de archivos nKo:",
+		"gvFileLeft": "Archivo restante",
+		"gvSizeLeft": "Talla restante",
+		"type": "Completa"
+
+	},
+
+	"turkish": {
+
+		"welcome": "EasySave uygulamasına hoş geldiniz",
+
+		"saveTitle": "Kaydettiniz",
+		"nameOfSave": "Ad",
+		"sourceOfSave": "Kaynak",
+		"destOfSave": "Destiny",
+		"sizeOfSave": "Klasör boyutu",
+		"start": "Oyna",
+		"pause": "duraklat",
+		"delete": "Sil",
+		"resume": "Geri",
+		"stop": "Dur",
+		"progress": "Ilerleme",
+
+		"optionsTitle": "Diğer seçenekler",
+		"generalOptionsTitle": "Genel seçenekler",
+		"createSaveTitle": "Kayıt oluştur",
+		"optionsGeneralTitle": "Genel ayarlar",
+		"pathLogState": "Kayıt ve durum dosyası yolları",
+
+		"saveButton": "yedekleme",
+		"createSaveButton": "Kaydetme Oluşturma",
+		"optionsButton": "diğer seçenekleri",
+		"quitButton": "sigarayı bırakmak",
+		"validButton": "geçerli",
+		"launchAllSaveButton": "Tüm muhafazaları çalıştırın",
+
+		"optionLanguage": "Dil seçimi:",
+		"optionTypeOutput": "Günlük dosyası türü:",
+		"optionLogPath": "Günlük dosyalarının yolu:",
+		"optionStatePath": "Durum dosyasının yolu:",
+		"optionExePath": "Cryptosoft exe yolu:",
+		"optionAddExtensions": "Uzantı ekle:",
+		"optionsAddExtensionsPriority": "Bir öncelik uzantısı ekleyin:",
+		"optionExtensions": "Akım uzantıları:",
+		"optionPriorityExtensions": "Mevcut öncelikli uzantılar:",
+
+		"createSaveName": "Bir ad seçin",
+		"createSaveSource": "Bir dizin veya dosya kaynağı seçin",
+		"createSaveDest": "Bir dizin hedefi seçti",
+		"createSaveDif": "Diferansiyel kaydetme",
+		"checkIfCrypt": "Kript",
+
+		"errorSourceFile": "Kaynak boş veya yanlış",
+		"errorName": "Ad boş veya yanlış",
+		"errorDestFile": "Fate is empty",
+		"errorStringInt": "Giriş dizesi bir sayı değil!",
+		"NameNoSpecialCharacter": "Adda veya boşlukta özel karakterler var",
+		"successCreate": "Kayıt oluşturuldu",
+		"successOption": "Kaydedilen seçenekler",
+		"saveKey": "Uyarı Lütfen şifre anahtarınızı not edin:",
+		"processRun": "Üst işlem çalışıyor, kaydetmeye başlanamıyor",
+		"processRun2": "Üst işlem çalışıyor, tüm yedeklemeler askıya alındı. Lütfen uygulamayı kapatın ve kaydetmeye devam edin.",
+
+		"SourceError": "Kaynak dosya eksik veya taşındı, yedekleme duraklatıldı, lütfen kaynak dosyaların mevcut olup olmadığını kontrol edin",
+		"noSave": "Oluşturma işlemi yoktur,",
+
+		"filesSize": "NKo dosyalarının eşzamanlı aktarımını yasakla:",
+		"gvFileLeft": "kalan dosya,",
+		"gvSizeLeft": "Kalan boyut",
+		"type": "Tam"
+
+	},
+
+	"Italian": {
+
+		"welcome": "Benvenuti all'app Easysave",
+
+		"saveTitle": "I tuoi backup",
+		"nameOfSave": "Nome",
+		"sourceOfSave": "Source",
+		"destOfSave": "Destinazione",
+		"sizeOfSave": "Dimensione del fascicolo",
+		"start": "Giocare a",
+		"pause": "pausa",
+		"delete": "Sopprimere",
+		"resume": "Riprendere",
+		"stop": "Stop",
+		"progress": "Progressione",
+
+		"optionsTitle": "Altre opzioni",
+		"generalOptionsTitle": "Opzioni Generali",
+		"createSaveTitle": "Crea un backup",
+		"optionsGeneralTitle": "Parametri Generali",
+		"pathLogState": "Percorsi dei file di log e state",
+
+		"saveButton": "Backup",
+		"createSaveButton": "Créer une sauvegarde",
+		"optionsButton": "Opzioni di autres",
+		"quitButton": "Lasciare",
+		"validButton": "Convalidare",
+		"launchAllSaveButton": "Avvia tutti i backup",
+
+		"optionLanguage": "Scelta del linguaggio:",
+		"optionTypeOutput": "Tipo di file di log:",
+		"optionLogPath": "Percorso di registrazione dei log:",
+		"optionStatePath": "Percorso di salvataggio del file stato:",
+		"optionExePath": "Percorso del exe cryptosoft:",
+		"optionAddExtensions": "Aggiungi un'estensione da crittografare:",
+		"optionsAddExtensionsPriority": "Aggiungere un'estensione prioritaria:",
+		"optionExtensions": "Estensioni già presenti:",
+		"optionPriorityExtensions": "Estensione prioritaria già presente:",
+
+		"createSaveName": "Scegli un nome",
+		"createSaveSource": "Selezionare una cartella o un file sorgente",
+		"createSaveDest": "Scegli una cartella di destinazione",
+		"createSaveDif": "Backup differenziale",
+		"checkIfCrypt": "Criptare",
+
+		"errorSourceFile": "La fonte è vuota o errata",
+		"errorName": "Il nome è vuoto o errato",
+		"errorDestFile": "La destinazione è vuota",
+		"errorStringInt": "La catena di ingresso non è un numero!",
+		"Namenospecialcharacter": "Ci sono caratteri speciali o uno spazio nel nome",
+		"successCreate": "Il backup è stato creato correttamente",
+		"successOption": "Le opzioni sono state salvate",
+		"saveKey": "Nota la tua chiave di crittografia: ",
+		"processRun": "L'applicazione metier è in esecuzione, impossibile avviare il backup",
+		"processRun2": "L'applicazione aziendale è in esecuzione, tutti i backup sono stati sospesi. Chiudi l'app e riprendi il salvataggio.",
+
+		"SourceError": "Il file sorgente è mancante o è stato spostato, il backup è stato sospeso, verifica che i file sorgente siano disponibili",
+		"noSave": "Non hai alcun backup per creare",
+
+		"filesSize": "Divieto di trasferimento simultaneo dei file di nKo:",
+		"gvFileLeft": "File rimanente",
+		"gvSizeLeft": "Dimensione residua",
+		"type": "Completo"
+
+	},
+
+	"german": {
+
+		"welcome": "Willkommen zur EasySave-Anwendung",
+
+		"saveTitle": "Ihre Sicherungen",
+		"nameOfSave": "Name",
+		"sourceOfSave": "Quelle",
+		"destOfSave": "Bestimmungsort",
+		"sizeOfSave": "Dateigröße",
+		"start": "Starten",
+		"pause": "Pause",
+		"delete": "Löschen",
+		"resume": "übernehmen",
+		"stop": "Stop",
+		"progress": "Anstieg",
+
+		"optionsTitle": "Sonstige Optionen",
+		"generalOptionsTitle": "Allgemeine Optionen",
+		"createSaveTitle": "Eine Datensicherung erstellen",
+		"optionsGeneralTitle": "Allgemeine Parameter",
+		"pathLogState": "Pfade für Log- und State-Dateien",
+
+		"saveButton": "Sicherungen",
+		"createSaveButton": "Speichern",
+		"optionsButton": "Sonstige Optionen",
+		"quitButton": "Verlassen",
+		"validButton": "Validieren",
+		"launchAllSaveButton": "Alle Sicherungen starten",
+
+		"optionLanguage": "Wahl der Sprache:",
+		"optionTypeOutput": "Dateityp log:",
+		"optionLogPath": "Pfad zum Speichern von Logs:",
+		"optionStatePath": "Pfad zum Speichern der Statusdatei:",
+		"optionExePath": "Pfad des exe cryptosoft:",
+		"optionAddExtensions": "Eine zu verschlüsselnde Erweiterung hinzufügen:",
+		"optionsAddExtensionsPriority": "Prioritätserweiterung hinzufügen:",
+		"optionExtensions": "Erweiterungen bereits vorhanden:",
+		"optionPriorityExtensions": "Vorrangige Erweiterung bereits auf dem Vormarsch",
+
+		"createSaveName": "Wählen Sie einen Namen",
+		"createSaveSource": "Wählen Sie einen Ordner oder eine Quelldatei",
+		"createSaveDest": "Wählen Sie einen Zielordner",
+		"createSaveDif": "Differentialschutz",
+		"checkIfCrypt": "verschlüsseln",
+
+		"errorSourceFile": "Quelle leer oder falsch",
+		"errorName": "Der Name ist leer oder falsch",
+		"errorDestFile": "Das Ziel ist leer",
+		"errorStringInt": "Die Eingangskette ist keine Zahl!",
+		"NameNoSpecialCharacter": "Es gibt Sonderzeichen oder Leerzeichen im Namen",
+		"successCreate": "Der Schutz wurde erfolgreich geschaffen",
+		"successOption": "Die Optionen wurden gespeichert",
+		"saveKey": "Beachten Sie Ihren Verschlüsselungsschlüssel",
+		"processRun": "Die Metier-Anwendung wird gerade ausgeführt, die Sicherung kann nicht gestartet werden",
+		"processRun2": "Die Metier-Anwendung wird gerade ausgeführt, alle Sicherungen wurden ausgesetzt. Bitte schließen Sie die App und setzen Sie das Speichern fort.",
+
+		"SourceError": "Die Quelldatei fehlt oder wurde verschoben, die Sicherung wurde angehalten, bitte überprüfen Sie, ob die Quelldateien verfügbar sind",
+		"noSave": "Sie haben keine Absicherung zum Erstellen",
+
+		"filesSize": "Verbot der gleichzeitigen Übertragung von nKo:",
+		"gvFileLeft": "Datei bleibt",
+		"gvSizeLeft": "Restgröße",
+		"type": "Vollständige"
+	},
+
+	"român": {
+
+		"welcome": "Bun venit la aplicația EasySave",
+
+		"saveTitle": "Backup-uri",
+		"nameOfSave": "Name",
+		"sourceOfSave": "Sursa",
+		"destOfSave": "Destinație",
+		"sizeOfSave": "Dimensiunea fișierului",
+		"start": "Lansare",
+		"pause": "Pauză",
+		"delete": "Ștergere",
+		"resume": "Relua",
+		"stop": "Stop",
+		"progress": "Progresie",
+
+		"optionsTitle": "Alte opțiuni",
+		"generalOptionsTitle": "Opțiuni generale",
+		"createSaveTitle": "Creați o copie de siguranță",
+		"optionsGeneralTitle": "Parametri generali",
+		"pathLogState": "Log and state file cars",
+
+		"saveButton": "Backup",
+		"createSaveButton": "Creați o copie de rezervă",
+		"optionsButton": "Alte opțiuni",
+		"quitButton": "Concediu",
+		"validButton": "Validare",
+		"launchAllSaveButton": "Executați toate copiile de rezervă",
+
+		"optionLanguage": "Alegere limbă:",
+		"optionTypeOutput": "Tip fișier jurnal:",
+		"optionLogPath": "Înregistrare",
+		"optionStatePath”": "Status",
+		"optionExePath": "Cryptosoft",
+		"optionAddExtensions": "Adăugați o extensie pentru a cripta:",
+		"optionsAddExtensionsPriority": "Adăugați o extensie de prioritate:",
+		"optionExtensions": "Extensii deja prezente:",
+		"optionPriorityExtensions": "Extensie prioritară deja prezentă:",
+
+		"createSaveName": "Alegeți un nume",
+		"createSaveSource": "Alegeți un folder sursă sau un fișier",
+		"createSaveDest": "Alegeți un folder de destinație",
+		"createSaveDif": "Backup diferențial",
+		"checkIfCrypt": "criptarea",
+
+		"errorSourceFile": "Sursa este goală sau incorectă",
+		"errorName": "Numele este gol sau incorect",
+		"erorDestFile": "Destinația este goală",
+		"errorStringInt": "Șirul de intrare nu este un număr!",
+		"NameNoSpecialCharacter": "Există caractere speciale sau un spațiu în nume",
+		"successCreate": "Copia de siguranță a fost creată",
+		"successOption": "Opțiunile au fost salvate",
+		"saveKey": "cheia",
+		"processRun": "Aplicația de afaceri este în curs de desfășurare, este imposibil de a începe backup",
+		"processRun2": "Aplicația de afaceri rulează, toate copiile de siguranță au fost suspendate. Închideți aplicația și reluați salvarea.",
+
+
+		"SourceError": "Fișierul sursă lipsește sau a fost mutat, backup-ul a fost întrerupt, vă rugăm să verificați dacă fișierele sursă sunt disponibile",
+		"noSave": "Nu aveți nici o copie de rezervă pentru a crea",
+
+		"filesSize": "Interziceți transferul simultan al fișierelor de la nKO:",
+		"gvFileLeft": "Fișierul rămas",
+		"gvSizeLeft": "Dimensiune rămasă",
+		"type": "Completă"
+
+	},
+
+	"한국어": {
+
+		"welcome": "EasySave 응용 프로그램 시작",
+
+		"saveTitle": "백업",
+		"nameOfSave": "이름",
+		"sourceOfSave": "소스",
+		"destOfSave": "대상",
+		"sizeOfSave": "파일 크기",
+		"start": "시작",
+		"pause": "일시 중지",
+		"delete": "삭제",
+		"stop": "정지",
+		"progress": "진행",
+
+		"optionsTitle": "기타 옵션",
+		"generalOptionsTitle": "일반 옵션",
+		"createSaveTitle": "백업 생성",
+		"optionsGeneralTitle": "일반 매개 변수",
+		"pathLogState": "로그 및 상태 파일 경로",
+
+		"saveButton": "백업",
+		"createSaveButton": "백업 만들기",
+		"optionsButton": "기타 옵션",
+		"quitButton": "나가기",
+		"validButton": "유효성 검사",
+		"launchAllSaveButton": "모든 백업 실행",
+
+		"optionLanguage": "언어 선택:",
+		"optionTypeOutput": "로그 파일 형식:",
+		"optionLogPath": "로깅 경로:",
+		"optionStatePath": "상태 파일 레코드 경로:",
+		"optionExePath": "Cryptosoft exe 경로:",
+		"optionAddExtensions": "암호화할 확장명 추가:",
+		"optionsAddExtensionsPriority": "우선 순위 내선 추가:",
+		"optionExtensions": "이미 존재하는 확장자:",
+		"optionPriorityExtensions": "우선 순위 확장이 이미 존재합니다:",
+
+		"createSaveName": "이름 선택",
+		"createSaveSource": "소스 폴더 또는 파일 선택",
+		"createSaveDest": "대상 폴더 선택",
+		"createSaveDif": "차등 백업",
+		"checkIfCrypt": "암호화",
+
+		"errorSourceFile": "소스가 비어 있거나 잘못되었습니다",
+		"errorName": "이름이 비어 있거나 잘못되었습니다.",
+		"errorDestFile": "대상이 비어 있습니다.",
+		"errorStringInt": "입력 문자열이 숫자가 아닙니다!",
+		"NameNoSpecialCharacter": "이름에 특수 문자 또는 공백이 있습니다.",
+		"successCreate": "백업이 생성되었습니다.",
+		"successOption": "옵션이 저장되었습니다",
+		"saveKey": "암호화 키를 기록해 두십시오:",
+		"processRun": "비즈니스 애플리케이션이 실행 중이므로 백업을 시작할 수 없습니다.",
+		"processRun2": "비즈니스 애플리케이션이 실행 중이며 모든 백업이 일시 중단되었습니다. 앱을 종료하고 저장을 재개하세요.",
+
+		"SourceError": "원본 파일이 없거나 이동되었습니다. 백업이 일시 중지되었습니다. 원본 파일을 사용할 수 있는지 확인하십시오.",
+		"noSave": "생성할 백업이 없습니다.",
+
+		"filesSize": "nKO에서 파일 동시 전송 금지:",
+		"gvFileLeft": "남은 파일",
+		"gvSizeLeft": "남은 크기",
+		"type": "완료"
+
+	}
+}
